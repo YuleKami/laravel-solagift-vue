@@ -1,0 +1,50 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.header{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+    }
+}
+.logo{
+    margin: 0 auto;
+    width: 150px;
+    height: 23px;
+}
+.menu{
+    padding-left: 29px;
+    padding-right: 72px;
+    &__list{
+        display: flex;
+    }
+    &__list-item{
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    &__list-item-right{
+        padding-right: 12px;
+        padding-left: 58px;
+
+    }
+    &__list-item-left{
+
+        padding-left: 133px;
+
+    }
+    &__list-ico{
+        display: flex;
+
+    }
+    &__list-ico-deep{
+        padding-right: 10px;
+        width: 17px;
+        height: 17px;
+    }
+}
